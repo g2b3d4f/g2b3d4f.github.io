@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Yu Gothic";
+    src: local("Yu Gothic Medium");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Yu Gothic";
+    src: local("Yu Gothic Medium");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Yu Gothic";
+    src: local("Yu Gothic Medium");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Yu Gothic";
+    src: local("Yu Gothic Medium");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Yu Gothic";
+    src: local("Yu Gothic Bold");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: local("Helvetica Neue Regular");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: local("Helvetica Neue Regular");
+    font-weight: 200;
+}
+
+
+html {
+    min-width: 320px;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background-color: antiquewhite;
+    flex-grow: 1;
+}
+
+#global-nav {
+    background-color: khaki;
+    min-height: 48px;
+}
+
+/* place holder */
+
+.gn-header {
+    display: none;
+}
+
+#global-nav>.gn-content {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.gn-content>.gn-list {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: khaki;
+    min-height: 48px;
+}
